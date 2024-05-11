@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <meta
+      name="description"
+      content="Vous trouverez sur ce site mon Portfolio"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Nicolas Souply</title>
+    <link
+      data-n-head="ssr"
+      rel="icon"
+      type="image"
+      href="/img/logo NS B&W.png"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="/img/logo NS B&W.png" alt="Logo NS (Nicolas Souply)" />
+         <div>
+            <a href="index.html" class="header__navbar-link">Accueil</a>
+            <a href="#profil" class="header__navbar-link">Profil</a>
+            <a href="#competences" class="header__navbar-link">Compétences</a>
+            <a href="#projets" class="header__navbar-link">Projets</a>
+            <a href="#contact" class="header__navbar-link">Contact</a>
+          </div>
+      </nav>
+        <div class="header__navbar-btns">
+          <div class="header__audio js-audio-disc"></div>
+        </div>
+      </nav>
+    </header>
+
+    
+    <div class="main">
+      <aside class="sidebar">
+        <div class="sidebar__nav">
+          <div class="sidebar__nav-prev disable"></div>
+          <div class="sidebar__nav-next disable"></div>
+        </div>
+        <div class="sidebar__scroll">
+          <ul class="sidebar__pages">
+            <li class="sidebar__page-num page__num-active">01</li>
+            <li class="sidebar__page-num page__num-active">02</li>
+            <li class="sidebar__page-num page__num-active">03</li>
+            <li class="sidebar__page-num page__num-active">04</li>
+          </ul>
+        </div>
+      </aside>
+
+      <section class="container">
+        <img class="home-bg" src="img/dev.jpg" alt="image d'un développeur web" />
+        <h1  class="title-description">Nicolas Souply</h1>
+        <p class="p-description">Développeur Web</p>
+      </section>
+
+
+    <section class="container">
+          <h2 id="profil" >A propos de moi</h2>
+          <div class="about-me">
+          <article class="about-me__pic">
+            <img src="img/nicolas.png" alt="Photo de Nicolas Souply " />
+          </article>
+          <article class="about-me__text">
+            <p>Hello ! Je m'appelle Nicolas Souply, je suis actuellement en formation de développeur web à l'école 3W Academy.
+              <p>Après plusieurs années dans l'enseignement en tant que professeur des écoles, j'ai décidé de donner une nouvelle direction à ma carrière en me lançant dans le monde du développement web.</p><br>
+              <p>En tant qu'enseignant, j'ai toujours été fasciné par le potentiel des outils numériques pour enrichir l'expérience d'apprentissage de mes élèves. Pendant les différents confinement liés au Covid j'ai constaté à quel point les sites web et les applications peuvent être des ressources précieuses pour fournir du contenu éducatif interactif et stimulant.</p>
+                <p>Cette observation m'a amené à explorer davantage le domaine du développement web et à découvrir les innombrables possibilités qu'il offre.</p><br>
+              <p>Je suis impatient et motivé de mettre mes nouvelles compétences de développeur web et à mon expérience dans l'enseignement au service de projets passionnants dans le monde du développement web.</p>
+            </p>
+          </article>
+        </div>
+    </section>
+
+        <section class="skills container">
+            <h2 class="skills__title" id="competences">Découvrez mes compétences</h2>
+            <div class="skills__container">
+              <div class="skills__skill">
+                <img src="img/logo html.png" alt="logo html" />
+                <h3>HTML</h3>
+              </div>
+              <div class="skills__skill">
+                <img src="img/logo css.png" alt="log css" />
+                <h3>CSS</h3>
+                </div>
+                <div class="skills__skill">
+                <img src="img/logo js.png" alt="logo js" />
+              <h3>JavaScript</h3>
+            </div>
+            <div class="skills__skill">
+              <img src="img/procreate.png" alt="logo procreate" />
+              <h3>Procreate</h3>
+              </div>
+              <div class="skills__skill">
+                <img src="img/github.png" alt="logo github" />
+                <h3>Github</h3>
+                </div>
+          </div>
+          <article>
+            <h2 class="skills__title">Mon CV</h2>
+            <div class="skills__cv">
+              <img src="img/cv-nicolas-souply.jpg" alt="image de mon cv" />
+            <div><button id="downloadButton"> Télécharger</button></div>
+            </div>
+          </article>
+        </section>
+
+        
+    <section class="container">
+      <h2 id="projets">Projets</h2>
+    <article id="carrousel">
+      
+      <div id="container">
+        </div>
+          <img class="button" id="arrow-left" src="img/arrow-carrousel.svg"  />
+          <img class="button" id="arrow-right" src="img/arrow-carrousel.svg"  />
+        </div>
+    </section>
+  </div>
+
+  <section class="contact-me container">
+    <h2 id="contact" class="contact-me__title">contact</h2>
+
+    <div class="contact-me">
+    <article class="contact-me__element">
+      <div class="contact-me__container">
+        <span class="material-icons icon">mail</span>
+        <span class="label">e-mail</span>
+        <span class="value mail"><a href="mailto:votre@email.com">n.souply@gmail.com</a></span>
+      </div>
+      <div class="contact-me__container">
+        <span class="material-icons icon">call</span>
+        <span class="label">téléphone</span>
+        <span class="value">06.58.06.35.36</span>
+      </div>
+      <div class="contact-me__container">
+        <span class="material-icons icon">house</span>
+        <span class="label">Adresse</span>
+        <span class="value">22960 Plédran</span>
+      </div>
+    </article>
+    
+  </div>
+  </section>
+
+<footer>
+<div class="license">
+  <img alt="Logo NS" src="img/logo NS W&B.png">
+  <p>© Copyright 2024 - Nicolas Souply. Tous droits réservés.</p>
+</div>
+</footer>
+    <script src="script.js"></script>
+  </body>
+</html>
